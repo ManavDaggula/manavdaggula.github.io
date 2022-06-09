@@ -1,1 +1,0 @@
-# manavdaggula.github.io
