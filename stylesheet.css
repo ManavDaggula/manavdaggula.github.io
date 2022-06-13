@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+#header{
+    background-image: linear-gradient(90deg,hsl(197, 100%, 50%),hsl(197, 100%, 80%));
+    font-size:3em;
+    padding: 10px;
+}
+#about-div{
+    background-color:rgb(1, 0, 87);
+    color: aliceblue;
+}
+#skills-div{
+    background-color:rgb(180, 255, 251);
+}
+#about-div>p{
+    font-size: 30px;
+}
+#footer{
+    background-color:rgb(1, 0, 87);
+    color: aliceblue;
+}
+#footer>p{
+    float:left;
+    width:30%;
+    margin-right: 20px;;
+}
+#footer>div{
+    display:flex;
+    /* flex-direction: column; */
+    
+}
+#footer>div>span{
+    display:flex;
+    flex-direction: column;
+    
+}
+#about-div>span>p{
+    float:left;
+    width:60%;
+}
