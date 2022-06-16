@@ -12,8 +12,9 @@ a{
     padding: 10px;
 }
 #about-div{
-    background-color:rgb(1, 0, 87);
+    background-color:rgb(22, 80, 255);
     color: aliceblue;
+    padding: 5px;
 }
 #skills-div{
     background-color:rgb(180, 255, 251);
@@ -25,22 +26,25 @@ a{
     background-color:rgb(1, 0, 87);
     color: aliceblue;
 }
-#footer>p{
-    float:left;
-    width:30%;
-    margin-right: 20px;;
+#footer table tr td{
+    padding: 7px;
 }
-#footer>div{
+#about-div>span p + img{
+    margin:20px;
+}
+#about-div span{
+    display: flex;;
+}
+#skills-div ul{
     display:flex;
-    /* flex-direction: column; */
-    
 }
-#footer>div>span{
-    display:flex;
-    flex-direction: column;
-    
-}
-#about-div>span>p{
-    float:left;
-    width:60%;
+#skills-div ul li{
+    padding:10px;
+    list-style: none;
+    border: 2px outset;
+    flex:1;
+    margin:20px;
+    text-align: center;
+    background-color: rgb(22, 80, 255);
+    flex-wrap: wrap;
 }
